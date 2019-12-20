@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <ImageView android:id="@+id/ic_not"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="62dp"
+        android:layout_height="62dp">
+    </ImageView>
+
+    <TextView android:id="@+id/tr_notif"
+        android:textAppearance="?android:attr/textAppearanceMediumInverse"
+        android:textColor="#FFFFFFFF"
+        android:focusable="true"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
